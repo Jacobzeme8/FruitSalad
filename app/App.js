@@ -1,9 +1,10 @@
 import { FruitController } from "./Controllers/FruitController.js";
-import { ValuesController } from "./Controllers/ValuesController.js";
+// import { ValuesController } from "./Controllers/ValuesController.js";
+import { PlayerController } from "./Controllers/PlayerController.js";
 
 class App {
-  
- fruitController = new FruitController()
+playerController = new PlayerController()
+fruitController = new FruitController()
 
 }
 

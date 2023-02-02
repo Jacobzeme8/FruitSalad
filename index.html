@@ -22,18 +22,35 @@
         <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
           loading="lazy">
         <span class="ms-2">FruitSalad</span>
-      </a>
+      </a>=
     </nav>
   </header>
+
   <main>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
+        <div class="col-5 p-3">
+          <div id="form">
+            <form onsubmit="app.playerController.formHandler()">
+              <input type="text" class="form-control" name="name" placeholder="Name" required>
+              <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-7">
+          <div id="fruit"></div>
+          <div id="active-player"></div>
+        </div>
+        
+        <div class="row">
+          <div class="col-12" id="playerList">
+            
+          </div>
         </div>
       </div>
     </div>
   </main>
+
   <footer class="bg-dark text-light">
     <div class="text-center no-select">
       <p><small>Made with 💖 by CodeWorks</small></p>

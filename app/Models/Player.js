@@ -23,6 +23,7 @@ get ActivePlayerTemplate(){
   <div>
     <h1> ${this.name} </h1>
     <h2> ${this.score}</h2>
+    <div id="fruit"></div>
     <form onsubmit = "" >
       <input id ="fruit-input" type = "text" />
     </form>
